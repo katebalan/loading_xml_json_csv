@@ -21,7 +21,7 @@ def switch(choice):
         'psql_json': json.main,
         'psql_csv': csv.main,
         'all': load_all,
-        'mongo xml': mongo_xml.main,
+        'mongo_xml': mongo_xml.main,
         'mongo_json': mongo_json.main,
         'mongo_csv': mongo_csv.main
     }
